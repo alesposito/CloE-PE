@@ -1,8 +1,7 @@
-CloE-PE is developped in Matlab and provides a tool to simulate Clonal Evolotion. 
-PE stays for Polyclonal Edition as we have developped a number of such MOnte Carlo simulations.
-CloE-PE simulates a tissue of N cells in the presence of proliferation, cell death and mutations. 
-When mutations occur, they might introduce a fitness advantage. 
-CloE-PE was designed to simulate the role of those mutations that cause a fitness advantage through cell-to-cell communication, i.e. non-cell-autonomous mechanisms
+CloE-PE is a repository of code from Alessandro Esposito (University of Cambridge) for simulate Clonal Evolution during the early steps of oncogenesis. 
 
-This repository includes the following files:
--
+The first release is to permit anyone to reproduce the results linked in the bioRxiv paper which is, at the time of writing in peer-review. You might find additional code that is in support of the final peer-reviewed edition.
+
+We also link the results of the Monte Carlo simulations and a Mathematica notebook describing a discrete-time Markov Chain model.
+
+PE refers to Polyclonal Edition as we have developped a number of such Monte Carlo simulations. CloE-PE simulates a tissue of N cells in the presence of proliferation, cell death and mutations. When mutations occur, they might introduce a fitness advantage. CloE-PE was designed to simulate the role of those mutations that cause a fitness advantage through cell-to-cell communication, i.e. non-cell-autonomous mechanisms.
